@@ -1,0 +1,19 @@
+{
+    "name": "audydev/pos_packages",
+    "authors": [
+        {
+            "name": "AudyDev",
+            "email": "audyafiary8@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "AudyDev\\POS\\": "packages/AudyDev/POS/src"
+        }
+    }
+}
